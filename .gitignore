@@ -1,0 +1,61 @@
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook Specific
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data & Caches (Project Specific)
+# 로컬 캐시 및 대용량 데이터 파일 제외
+data/processed/
+data/raw/*.pkl
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+!data/raw/.gitkeep
+
+# Analysis Outputs
+# 실행마다 변경되는 리포트 및 시각화 결과물 제외
+outputs/
+*.html
+*.pdf
+
+# Python Testing & Build
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Agent/Project Management
+.agent/
+.gemini/
+*.log
+tmp/
+temp/

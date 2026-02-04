@@ -1,0 +1,69 @@
+{
+  "version": "3.2",
+  "last_updated": "2026-02-03",
+  "naming_standard": "Korean_Underscore",
+  "personas": {
+    "career_slave": {
+      "id": "P001",
+      "name": "💼 직장 노비형",
+      "tagline": "출퇴근이 짧아야 인생이 행복하다",
+      "description": "왕복 이동 시간을 최소화하고 싶어 하며, 퇴근 후 배달 서비스와 편의점 접근성을 중시합니다.",
+      "weights": {
+        "commute_score": 0.5,
+        "rent_score": 0.2,
+        "infra_score": 0.2,
+        "vibe_score": 0.05,
+        "safety_score": 0.05
+      }
+    },
+    "life_satisfier": {
+      "id": "P002",
+      "name": "☕ 생활 만족러",
+      "tagline": "집 주변의 감성과 문화가 중요하다",
+      "description": "카페, 문화시설, 힙한 동네 분위기를 선호하며 여가 시간의 질을 높이는 환경을 원합니다.",
+      "weights": {
+        "vibe_score": 0.4,
+        "infra_score": 0.3,
+        "commute_score": 0.1,
+        "rent_score": 0.1,
+        "safety_score": 0.1
+      }
+    },
+    "value_hunter": {
+      "id": "P003",
+      "name": "💰 가성비 헌터",
+      "description": "가장 저렴한 월세 대비 넓고 쾌적한 매물을 찾으며 실속 있는 소비를 지향합니다.",
+      "weights": {
+        "rent_score": 0.6,
+        "infra_score": 0.1,
+        "commute_score": 0.1,
+        "vibe_score": 0.1,
+        "safety_score": 0.1
+      }
+    },
+    "solo_liver": {
+      "id": "P004",
+      "name": "🏠 혼자 잘살형",
+      "description": "1인 가구 밀집 지역의 치안과 편의시설, 그리고 프라이버시 보호를 최우선으로 합니다.",
+      "weights": {
+        "safety_score": 0.5,
+        "vibe_score": 0.2,
+        "infra_score": 0.1,
+        "rent_score": 0.1,
+        "commute_score": 0.1
+      }
+    },
+    "digital_nomad": {
+      "id": "P005",
+      "name": "💻 디지털 노마드",
+      "description": "재택근무 생산성을 높여주는 조용한 주거 환경과 작업 가능한 카페 인프라를 동시에 찾습니다.",
+      "weights": {
+        "vibe_score": 0.3,
+        "infra_score": 0.3,
+        "safety_score": 0.2,
+        "rent_score": 0.1,
+        "commute_score": 0.1
+      }
+    }
+  }
+}

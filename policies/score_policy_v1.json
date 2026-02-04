@@ -1,0 +1,19 @@
+{
+  "policy_name": "AI_Curator_Master_Policy",
+  "version": "3.2",
+  "env": "production",
+  "global_constants": {
+    "annual_interest_rate": 0.055,
+    "q1_imputation_quantile": 0.25,
+    "default_score_missing": 50.0,
+    "top_n_rank": 3,
+    "data_naming": "korean_underscore"
+  },
+  "default_persona": "career_slave",
+  "system_messages": {
+    "stage_1_log": "1/4 결정 레이어 작동 중 (순위 확정)...",
+    "stage_2_log": "2/4 설명 레이어 작동 중 (관심사 시그널 추가)...",
+    "stage_3_log": "3/4 리포트 및 시각화 생성 중...",
+    "completion_msg": "완료! 당신을 위한 최적의 동네가 선정되었습니다."
+  }
+}
